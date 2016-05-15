@@ -16,8 +16,7 @@
         "swiftmailer/swiftmailer" : "~5.4",
         "symfony/console" : "~2.7",
         "symfony/event-dispatcher" : "~2.7",
-        "gregwar/captcha": "1.*",
-        "phpunit/phpunit": "~4.3"
+        "gregwar/captcha": "1.*"
     },
     "autoload" : {
         "classmap" : ["app/"],
@@ -33,6 +32,7 @@
         ]
     },
     "require-dev" : {
-        "symfony/stopwatch" : "~2.6"
+        "symfony/stopwatch" : "~2.6",
+        "phpunit/phpunit": "~4.3"
     }
 }
